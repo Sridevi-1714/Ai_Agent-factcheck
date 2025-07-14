@@ -1,17 +1,3 @@
-# import requests
-
-# router_url = "http://localhost:8080/agent/statement_checker_agent"
-
-# user_input = {
-#     "statement": "The Earth is flat and the moon landing was fake"
-# }
-
-# print(f"Sending input: {user_input}")
-# response = requests.post(router_url, json=user_input)
-
-# print("Response from agent:")
-# print(response.text)
-
 import requests
 
 router_url = "http://localhost:8080/agent/statement_checker_agent"

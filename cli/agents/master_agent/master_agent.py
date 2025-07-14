@@ -15,6 +15,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 AGENT_JWT = os.getenv("AGENT_JWT")
+git commit -m "Initial commit of AIGent Fact-Checker project"
 
 session = GenAISession(jwt_token=AGENT_JWT)
 
