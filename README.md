@@ -87,24 +87,6 @@ Make sure you have the following installed:
 ## 👾 Supported Providers and Models
 * OpenAI: gpt-4o
 
-## 🌐 Ngrok Setup (Optional)
-
-Ngrok can be used to expose the local WebSocket endpoint.
-
-1. Install Ngrok:
-
-   * macOS (Homebrew): `brew install ngrok/ngrok/ngrok`
-   * Linux: `sudo snap install ngrok`
-
-2. Authenticate Ngrok:
-
-   * Sign up or log in at [ngrok dashboard](https://dashboard.ngrok.com).
-   * Go to the **"Your Authtoken"** section and copy the token.
-   * Run the command:
-
-     ```bash
-     ngrok config add-authtoken <YOUR_AUTH_TOKEN>
-     ```
 
 3. Start a tunnel to local port 8080:
 
